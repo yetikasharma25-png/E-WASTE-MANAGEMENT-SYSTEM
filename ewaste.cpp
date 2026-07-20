@@ -142,7 +142,6 @@ int main() {
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard the bad input line
         }
 
-        // Clear the newline left by cin >>
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         switch (choice) {
