@@ -13,7 +13,6 @@ struct Ewaste {
     string condition;
     string status; // "Stored", "Donated", "Recycled"
 };
-
 void addItem() {
     ofstream file("ewaste.txt", ios::app);
     Ewaste item;
