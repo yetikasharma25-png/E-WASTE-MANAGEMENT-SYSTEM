@@ -5,7 +5,6 @@
 #include <cstdlib> // Added for atoi
 #include <limits> // Added for numeric_limits
 using namespace std;
-
 struct Ewaste {
     int id;
     string name;
